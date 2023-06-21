@@ -1,0 +1,206 @@
+.page{width:1024px;
+	  height:1750px;
+	  padding:0px;
+	  margin:0px auto;
+	  background-color:#f0f0f0;}
+	
+.g1{padding:0px;
+    margin:0px;}
+
+.g2{height: 1060px;}
+	
+	header{width:1024px;
+			padding:10px 0px;
+			margin:0px;
+			float:left;}
+		
+		.hdr{width:523px;
+			 padding:0px;
+			 margin:0px auto;}
+			 
+		.hdr a:hover{color:white;}
+			 
+		.hd{color:white;
+			padding:0px;
+			margin:0px 0px 0px 8px;
+		    display:inline;
+			text-decoration:none;}
+	
+	.cover{background-color:#03bbbb;}
+
+	nav{width:627px;
+		padding:5px 0px;
+		margin:0px auto;}
+	
+	ul{
+		padding:0px;
+		margin:0px;
+		list-style-type:none;}
+		
+		li{display:inline;}
+			
+		a{color:#fff;
+		  padding:4px;
+		  margin:0px 0px 0px 8px;
+		  text-decoration:none;
+		  display:inline-block;}
+		  
+		  a:hover{color:#000;}
+		  
+	figure{width:1024px;
+			height:155px;
+			padding:0px;
+			margin:0px;
+			background-image:url("../images/bird2.png");
+			background-size:1030px 155px;
+			background-repeat:no-repeat;
+			position:relative;}
+			
+			.abt{width:50px;
+				padding:5px 10px;
+			    margin:0px;
+				color:white;
+				text-align:center;
+				border:1px solid black;
+				background-color:rgba(0,0,0,.8);
+				position:absolute;
+				top:65px;
+				left:500px;}
+	
+		main{width:800px;
+		     height:1000px;
+		     padding:0px;
+		     margin:0px auto;
+			 background-color:#f0f0f0;}
+	
+	.part1{width:800px;
+		   height:auto;
+		   padding:25px 0px;
+		   margin:0px auto;
+		   background-color:#f0f0f0;}
+			   
+			h1{
+			   padding:0px;
+			   text-align: center;
+			   font-family: Arial, Helvetica, sans-serif;}
+			   
+			   p{color:grey;
+				 text-align:center;}
+		
+		.art{width:850px;
+		   height:392px;
+		   padding:25px 0px;
+		   margin:0px;}
+		
+			.m{width:262px;
+				height:390px;
+				padding:0px;
+				margin:0px 8px;
+				background-color:white;
+				float:left;}
+			
+				
+				h4{text-align:center;
+				   padding:0px;
+				   margin:7px 0px;}
+				 
+				.dex{text-align:justify;
+					height:90px;
+					padding:0px;
+					margin:5px 15px 10px 15px;
+					border-bottom:1px solid grey;}
+				 
+				 .ikn{color:grey;
+					  width:70px;
+					  padding:0px;
+					  margin:0px auto;
+					  text-align:center;}
+		   
+	
+	.part2{width:800px;
+		   height:397px;
+		   padding:25px 0px;
+		   margin:0px auto;
+		   background-color:#f0f0f0;}
+		   
+		h3{padding:0px;
+		   margin-left:15px;}
+		
+		
+		.skill{width:257px;}
+
+		.m2{height:300px;}
+			   
+			#sk{width:257px;
+			    height:230px;}
+				
+	footer{width:1024px;
+			height:40px;
+			padding:0px;
+			margin:0px;
+			background-color:#03bbbb;}
+			
+		.foot{width:800px;
+				height:40px;
+				padding:0px;
+				margin:0px auto;
+				background-color:#03bbbb;}
+				
+			.lt{width:410px;
+				padding:10px 0px;
+				margin:0px;
+				color:white;
+				background-color:#03bbbb;
+				float:left;}
+				
+			.rt{width:140px;
+				padding:10px 0px;
+				margin:0px;
+				color:white;
+				background-color:#03bbbb;			
+				float:right;}
+				
+	.down{width:850px;
+		  height: 280px;
+		  padding:50px 0px;
+		  margin:0px auto;
+		  background-color:#f0f0f0;;}
+		  
+		#b1{height:285px;}
+			
+			#pst{display:block;
+				 margin:0px auto;}
+				 
+			.list{width:260px;
+			      height:150px;
+				  padding:0px;
+				  margin:0px;}
+				  
+				.list a {width:260px;
+						padding:5px 0px;
+						margin:0px;
+						border-bottom:1px solid grey;
+						display:inline-block;
+						text-align:center;
+						text-decoration:none;}
+			
+	#bk{width:1000px;
+		  height:150px;
+	      padding:0px;
+		  margin:0px;
+		  border:1px solid black;
+		  background-color:grey;}
+		  
+		#bc{width:100px;
+			height:150px;
+	        padding:0px;
+		    margin:0px;
+		    border:1px solid black;}
+
+	
+			   
+	   
+			
+
+			
+			
