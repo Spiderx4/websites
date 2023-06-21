@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Survey Form</title>
+		<link href="styles.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- wrapper -->
+		<div class="wrapper">
+
+			<!-- heading -->
+			<h1 id="title">Survey Form</h1>
+
+			<!-- paragraph -->
+			<p id="description">Please fill the details of Survey form </p>
+
+
+			<!-- form section -->
+			<form id = "survey-form" action="" method="">
+				<table>
+					<tr>
+						<td><label id="name-label">Name</label></td>
+						<td><input type="text" name="name" id="name" placeholder="Enter your name" required></td>
+					</tr>
+
+					<tr>
+						<td><label for="" id="email-label">Email</label></td>
+						<td><input type="email" name="email" id="email" placeholder="Enter your email" required></td>
+					</tr>
+
+					<tr>
+						<td><label for="" id="number-label">Age</label></td>
+						<td><input type="number" name="phone" id="number" min="18" max="25" placeholder="Enter your number"></td>
+					</tr>
+					
+					<tr>
+						<td>Current job title</td>
+						<td>
+							<select id="dropdown">
+								<option value="Job title"></option>
+								<option value="ethical hacker"> Ethical hacker</option>
+								<option value="programmer">Programmer</option>
+								<option value="web devleoper">Web devleoper</option>
+								<option value="pentration Tester">Pentration Tester</option>
+								<option value="network engineer">Network engineer</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Willing to relocate?</td>
+						<td>
+							<input type="radio" name="choice" value="yes">Yes
+							<input type="radio" name="choice" value="no">No
+						</td>
+					</tr>
+					
+					<tr>
+						<td>Check your options</td>
+						<td>
+							<input type="checkbox" value="part-time"> Part-time
+							<input type="checkbox" value="full-time"> Full-time
+						</td>
+					</tr>
+					<tr>
+						<td>Copy and paste your<br>
+							resume into the area<br>
+							below.</td>
+						<td><textarea placeholder="Paste resume"></textarea></td>
+					</tr>
+				</table>
+				<!-- submit button -->
+			<input type="Submit" value="Submit" id="submit">
+			</form>
+		</div>
+	</body>
+</html>

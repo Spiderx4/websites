@@ -1,0 +1,45 @@
+
+
+body{background-image:url('pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;}
+
+    .wrapper{border-radius: 5px; 
+            width: 35%;
+            margin: 50px auto;
+            color: white;
+            background-color:rgba(0,0,0,0.9);
+            padding: 25px 0px;
+        }
+
+        #title{text-align: center;
+            font-size:40px;
+            font-weight: normal;}
+
+        #description{text-align: center;
+                    font-size:23px;
+                    color: gray;}
+
+                    
+    #survey-form{font-size: 18px;}
+
+    table{width:80%; margin: 0px auto;}
+
+    td{padding:6px 0px;}
+
+    input{height: 20px;}
+
+    #name,#number,#email{display:block; width: 100%;}
+    
+    #submit{width: 80%;
+            height:auto;
+            padding:7px 0px;
+            margin: 25px auto;
+            display: block;
+            font-size:16px;
+            color:white;
+            background-color: red;
+            border: none;
+            cursor: pointer;
+            border-radius:3px;}
