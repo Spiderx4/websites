@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>www.Apex public school.com</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="css/nav-style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- wrapper -->
+        <div class="">
+            
+             <!------------------------------------------------ header -------------------------------------------------->
+             <header class="py-[5px] pt-[7px] grid grid-cols-6 gap-2 lg:grid-cols-12 lg:py-[10px]">
+                <!-- logo -->
+                <div class="logo span-1 mx-[10px] lg:col-start-1 lg:col-end-4 flex justify-center">
+                    <img src="images/logo.jpg" class="w-full lg:w-[25%]">
+                </div>
+
+                <!-- heading -->
+                <h1 class="col-start-2 col-end-6 text-xl text-red-600 text-center font-bold py-[2px] italic
+                lg:col-start-4 lg:col-end-13 lg:text-6xl lg:text-start lg:pt-[7px]"> APEX PUBLIC SCHOOL </h1>
+
+                <!-- menu -->
+                <div class="col-start-6 col-end-7 mx-[10px] lg:hidden" onclick="opennav()">
+                    <img src="images/menu.jpg" class="w-full">
+                </div>
+            </header>
+
+            <!----------------------------------------------  navigation bar -------------------------------------------->
+            <nav class="hidden lg:block bg-black text-white text-xl">
+                <ul class="py-[8px] flex justify-center">
+                    <li class="mx-[25px]"><a href="index.html">Home</a></li>
+                    <li class="mx-[25px]"><a href="facultiy.html">Facultiy</a></li>
+                    <li class="mx-[25px]"><a href="contact.html">Contact us</a></li>
+                    <li class="mx-[25px]"><a href="about.html">About us</a></li>
+                </ul>
+            </nav>
+
+            <!----------------------------------------------  responsive navigation bar -------------------------------------------->
+            <div class="sidenav" id = "mynav">
+                <a href="#" class="" id ="closebtn" onclick = "closenav()">&times;</a>
+                <a href="index.html" class="next">Home</a>
+                <a href="facultiy.html" class="next">facultiy</a>
+                <a href="contact.html" class="next">service</a>
+                <a href="about.html" class="next">about</a>
+            </div>
+
+            <!---------------------------------------------- heading section ----------------------------------------------->
+            <div class="bg-red-600 text-center text-white py-[120px] ">
+                <h1 class=" text-6xl">About us</h1><br>
+            </div>
+
+            <!---------------------------------------------- about section ----------------------------------------------->
+            <div class="grid  grid-cols-12">
+                <p class="col-start-2 col-end-12 text-justify lg:text-center py-[25px]">
+                    The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. Note: If the name of a font family is more than one word, it must be in quotation marks, like: "Times New Roman". More than one font family is specified in a comma-separated list:
+                    The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. Note: If the name of a font family is more than one word, it must be in quotation marks, like: "Times New Roman". More than one font family is specified in a comma-separated list:
+                    The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. Note: If the name of a font family is more than one word, it must be in quotation marks, like: "Times New Roman". More than one font family is specified in a comma-separated list:
+                    The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. Note: If the name of a font family is more than one word, it must be in quotation marks, like: "Times New Roman". More than one font family is specified in a comma-separated list:
+                    The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. Note: If the name of a font family is more than one word, it must be in quotation marks, like: "Times New Roman". More than one font family is specified in a comma-separated list:
+                    The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. Note: If the name of a font family is more than one word, it must be in quotation marks, like: "Times New Roman". More than one font family is specified in a comma-separated list:
+                </p>
+            </div>
+            
+            <!-- footer -->
+            <footer class="bg-black py-[50px] text-center text-white">
+                &#169; www.Apex public school.com
+            </footer>
+
+
+        </div>
+
+        <script src = "js/setting.js"></script>
+    </body>
+</html>
