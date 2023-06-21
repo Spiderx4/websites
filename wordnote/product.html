@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.wordnote.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .sidenav{width: 0;
+            height: 100%;
+            padding-top:60px;
+            background-color: #f1f1f1;
+            transition: 0.5s;
+            position:fixed;
+            top:0;
+            left:0;
+            z-index: 1;
+            overflow: hidden;}
+
+        .next{padding:8px 8px 8px 32px;
+                color:black;
+                font-size: 25px;
+                text-decoration: none;
+                
+                display: block;
+                transition: 0.3s;}
+
+        .next:hover{background-color: dodgerblue; color: white;}
+
+        #closebtn{position: absolute;
+                            top:0;
+                            right:0px;
+                            font-size: 36px;
+                            margin-left: 50px;}
+
+        @media screen and (max-width:450px)
+            {
+                .sidenav{padding-top:15px;}
+                .next{font-size: 18px;}
+            }
+    </style>
+</head>
+<body>
+    <!-- wrapper -->
+    <div>
+        <!---------------------------------------- mobile nav section ----------------------------------------------->
+        <nav class="grid grid-cols-6 lg:grid-cols-12 bg-[#1385c6] fixed top-0 w-full">
+            <!-- logo -->
+            <div class="col-start-1 col-end-3 lg:col-start-3 lg:col-end-4
+            cursor-pointer" onclick="topfun()" id="topbtn">
+                <img src="images/logo.png" class="w-full h-[50px] object-cover">
+            </div>
+
+            <!-- menu -->
+            <div class="col-start-6 col-end-7 m-[10px] my-[5px] cursor-pointer lg:hidden" onclick="opennav()">
+                <img src="images/menu.png" class="w-full">
+            </div>
+
+            <!----------------------------------------------  navigation bar -------------------------------------------->
+            <nav class="hidden lg:block col-start-8 col-end-12 text-white text-2xl">
+                <ul class="py-[8px] flex justify-center">
+                    <li class="mx-[25px]"><a href="index.html">Home</a></li>
+                    <li class="mx-[25px]"><a href="product.html">Product</a></li>
+                    <li class="mx-[25px]"><a href="about.html">About</a></li>
+                    <li class="mx-[25px]"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!----------------------------------------------  responsive navigation bar -------------------------------------------->
+            <div class="sidenav" id = "mynav">
+                <a href="#" class="" id ="closebtn" onclick = "closenav()">&times;</a>
+                <a href="index.html" class="next">Home</a>
+                <a href="product.html" class="next">Product</a>
+                <a href="about.html" class="next">About</a>
+                <a href="contact.html" class="next">Contact</a>
+            </div>
+        </nav>
+
+        <!---------------------------------------- hero section --------------------------------------------->
+        <div class="text-center py-[45px] pt-[70px] lg:py-[40px] font-sans bg-[#45abe5]
+            lg:w-[33%] lg:m-auto lg:my-[100px] lg:shadow-[0px_1px_5px_0px]">
+
+            <p class="text-white text-xl py-[12px] pb-[0px] lg:text-4xl">Click here to download</p><br>
+            <button class="py-[8px] px-[25px] text-white bg-[#1385c6] lg:mt-[10px]">Download</button>
+        </div>
+
+        <hr class="hidden lg:block">
+
+        <!------------------------------------------ main section ------------------------------------------------>
+        <article class="lg:grid lg:grid-cols-12 lg:my-[25px]">
+            <!-- heading -->
+            <h1 class="text-4xl py-[25px] text-center text-[#45abe5]
+            lg:mb-[20px] lg:text-6xl lg:col-span-full">Word Note</h1>
+            
+            <!-- image box -->
+            <figure class="w-[75%] m-auto border-2
+            lg:col-start-9 lg:col-end-12 lg:row-start-2 lg:row-end-2">
+                <img src="images/product.jpg" class="w-full">
+            </figure>
+
+            <!-- textbox -->
+            <p class="text-lg text-justify p-[25px] leading-relaxed 
+            lg:col-start-3 lg:col-end-9 lg:row-start-2 lg:row-end-2">
+                The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. 
+            </p>
+        </article>
+
+        <hr class="hidden lg:block lg:my-[50px]">
+
+         <!-- textbox 2 -->
+        <div class="text-lg lg:grid lg:grid-cols-12">
+            <div class="p-[25px] pt-[0px] lg:row-start-3 lg:row-end-3 lg:col-start-3 lg:col-end-12">
+
+                <h2 class="text-2xl pb-[5px] text-[#45abe5]
+                lg:text-4xl">Word Note Specifiaction </h2>
+
+                <p class="text-justify py-[25px] lg:text-left">
+                    The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.
+                    The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.   
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- footer -->
+        <footer class="bg-[#45abe5] py-[50px] text-center text-white" onclick="topfun()" id="topbtn">
+            &#169; www.wordnote.com
+        </footer>
+    </div>
+
+    <script src = "js/setting.js"></script>
+</body>
+</html>

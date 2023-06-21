@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.wordnote.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .sidenav{width: 0;
+            height: 100%;
+            padding-top:60px;
+            background-color: #f1f1f1;
+            transition: 0.5s;
+            position:fixed;
+            top:0;
+            left:0;
+            z-index: 1;
+            overflow: hidden;}
+
+        .next{padding:8px 8px 8px 32px;
+                color:black;
+                font-size: 25px;
+                text-decoration: none;
+                
+                display: block;
+                transition: 0.3s;}
+
+        .next:hover{background-color: dodgerblue; color: white;}
+
+        #closebtn{position: absolute;
+                            top:0;
+                            right:0px;
+                            font-size: 36px;
+                            margin-left: 50px;}
+
+        @media screen and (max-width:450px)
+            {
+                .sidenav{padding-top:15px;}
+                .next{font-size: 18px;}
+            }
+    </style>
+</head>
+<body>
+    <!-- wrapper -->
+    <div>
+        <!---------------------------------------- mobile nav section ----------------------------------------------->
+        <nav class="grid grid-cols-6 lg:grid-cols-12 bg-[#1385c6] fixed top-0 w-full">
+            <!-- logo -->
+            <div class="col-start-1 col-end-3 lg:col-start-3 lg:col-end-4
+            cursor-pointer" onclick="topfun()" id="topbtn">
+                <img src="images/logo.png" class="w-full h-[50px] object-cover">
+            </div>
+
+            <!-- menu -->
+            <div class="col-start-6 col-end-7 m-[10px] my-[5px] cursor-pointer lg:hidden" onclick="opennav()">
+                <img src="images/menu.png" class="w-full">
+            </div>
+
+            <!----------------------------------------------  navigation bar -------------------------------------------->
+            <nav class="hidden lg:block col-start-8 col-end-12 text-white text-2xl">
+                <ul class="py-[8px] flex justify-center">
+                    <li class="mx-[25px]"><a href="index.html">Home</a></li>
+                    <li class="mx-[25px]"><a href="product.html">Product</a></li>
+                    <li class="mx-[25px]"><a href="about.html">About</a></li>
+                    <li class="mx-[25px]"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!----------------------------------------------  responsive navigation bar -------------------------------------------->
+            <div class="sidenav" id = "mynav">
+                <a href="#" class="" id ="closebtn" onclick = "closenav()">&times;</a>
+                <a href="index.html" class="next">Home</a>
+                <a href="product.html" class="next">Product</a>
+                <a href="about.html" class="next">About</a>
+                <a href="contact.html" class="next">Contact</a>
+            </div>
+        </nav>
+
+        <!------------------------------------------ figure section ------------------------------------------>
+        <figure class="w-[50%] m-auto mt-[80px] lg:w-[15%]">
+            <img src="images/i.png" class="w-full rounded-full">
+        </figure>
+
+        <h2 class="text-5xl text-center text-[#45abe5] py-[25px]">Sahil Kumar </h2>
+
+         <!-- textbox 2 -->
+        <p class="text-justify text-lg w-[90%] lg:w-[60%] py-[10px] m-auto text-gray-600 lg:leading-relaxed">
+            The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on.
+            The font family of a text is set with the font-family property.
+
+            <br><br>
+
+            The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. 
+            The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. The font family of a text is set with the font-family property. The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available. 
+            
+        </p>
+
+        <br><br>
+
+        <!-- footer -->
+        <footer class="bg-[#45abe5] py-[50px] text-center text-white" onclick="topfun()" id="topbtn">
+            &#169; www.wordnote.com
+        </footer>
+    </div>
+
+    <script src = "js/setting.js"></script>
+</body>
+</html>
