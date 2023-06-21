@@ -1,0 +1,111 @@
+.page{width:1000px;
+	  height:600px;
+	  padding:0px;
+	  margin:50px auto;
+	  box-shadow:0px 1px 5px 0px;}
+	
+	header{width:1000px;
+			height:100px;
+			padding:0px;
+			margin:0px;
+			background-color:dodgerblue;}
+		
+		.logo{
+			  width:355px;
+			  height:100px;
+			  padding:0px;
+			  margin-left:25px;
+			  float:left;}
+				
+			.pic{width:100px;
+				 height:96px;
+				 padding:2px;
+				 margin:0px;
+				 float:left;}
+			
+			.about{width:250px;
+				   height:60px;
+				   padding:20px 0px;
+				   margin:0px;
+				   color:white;
+				   font-family:halvetica,sans-serif;
+				   float:left;}
+				
+				.a,li{padding:0px; margin:0px;}
+				 
+		.link{width:250px;
+			  height:60px;
+			  padding:20px 0px;
+			  margin:0px;
+			  color:white;
+			  font-family:halvetica,sans-serif;
+			  text-align:center;
+			  float:right;}
+				
+			a{color:white;
+			  margin:5px;
+			  text-decoration:none;}
+		
+	main{width:1000px;
+		 height:500px;
+		 padding:0px;
+		 margin:0px;		 
+		 float:left;}
+				
+		aside{width:135px;
+			  height:500px;
+			  padding:0px;
+			  margin:0px;
+			  background-color:White;
+			  float:left;}
+			  
+			ul{width:85px;
+			   height:500px;
+			   padding:0px;
+			   margin:0px;
+			   margin-left:45px;
+			   list-style-type:none;}
+			
+				#menu {width:85px;
+					   height:20px;
+					   padding:0px;
+					   margin:25px 0px;
+					   color:black;
+					   text-align:left;
+					   font-family:halvetica,sans-serif;
+					   display:inline-block;}
+					   
+				#menu:hover {color:dodgerblue;}
+				
+		section{width:745px;
+				height:390px;
+				padding:0px;
+				margin:55px 0px 0px 55px;
+				background-color:#f5f5f5;
+				float:left;}
+				
+			figure{width:370px;
+					height:388px;
+					padding:0px;
+					margin:0px;
+					float:left;}
+					
+			article{width:320px;
+					height:388px;
+					padding:0px 25px;
+					margin:0px;
+					background-color:#f0f0f0;
+					text-align:justify;
+					float:left;}
+					
+				#more{width:200px;
+					  height:100px;
+					  padding:8px 6px;
+					  margin:0px;
+					  background-color:dodgerblue;
+					  text-align:center;
+					  text-decoration:none;}
+			
+				
+			
+			

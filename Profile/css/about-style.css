@@ -1,0 +1,104 @@
+body{background-color:3f00ff;}
+
+.page{width:750px;
+	  height:700px;
+	  padding:0px;
+	  margin:40px auto;
+	  background-color:white;
+	  font-family:halvetica,sans-serif;
+	  box-shadow:0px 1px 5px 0px;}
+	  
+	header{width:inherit;
+			height:100px;
+			padding:15px 0px;
+			margin:0px;
+			background-color:dodgerblue;}
+			
+		.me{width:355px;
+			height:100px;
+			padding:0px;
+			margin-left:25px;}
+			
+			.logo{width:100px;
+				 height:96px;
+				 padding:2px;
+				 margin:0px;
+				 float:left;}
+				 
+			.names{width:250px;
+				   height:60px;
+				   padding:20px 0px;
+				   margin:0px;
+				   color:white;
+				   font-family:halvetica,sans-serif;
+				   float:left;}
+				   
+				.a{padding:0px; margin:0px;}
+				
+		.info{color:white;
+			  width:220px;
+			  height:80px;
+			  padding:10px 20px;
+			  margin:0px 0px 0px 100px;
+			  line-height:25px;}
+			  
+		/* description*/
+		.des{width:700px;
+			 height:115px;
+			 padding:10px 25px 0px 25px;
+			 margin:50px 0px;
+			 background-color:#f0f0f0;}
+			 
+		.about{width:725px;
+			   height:265px;
+			   padding:0px;
+			   margin:0px auto;
+			   display:flex;
+			   justify-content:space-between;
+			   flex-wrap:wrap;}
+			   
+			   .exp{width:350px;
+					height:130px;
+					padding:0px;
+					margin-bottom:20px;
+					 background-color:#f0f0f0;}
+					
+					.box{width:340px;
+						 height:100px;
+						 padding:5px;
+						 margin:0px;}
+		
+
+		main {width:inherit;
+				height:500px;
+				padding:0px;
+				margin:0px;}
+				
+		footer{width:inherit;
+				height:20px;
+				padding:0px;
+				margin:0px;
+				background-color:dodgerblue;}
+				
+			.back{width:40px;
+				  height:20px;
+				  padding:0px 10px;
+				  margin-left:25px;
+				  color:White;
+				  text-align:center;
+				  background-color:dodgerblue;
+				  display:inline-block;
+				  text-decoration:none;
+				  float:left;}
+				  
+			.next{width:40px;
+				  height:20px;
+				  padding:0px 10px;
+				  margin-right:25px;
+				  color:White;
+				  text-align:center;
+				  background-color:dodgerblue;
+				  display:inline-block;
+				  text-decoration:none;
+				  float:right;}
+					

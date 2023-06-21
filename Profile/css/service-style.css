@@ -1,0 +1,52 @@
+.page{width:750px;
+	  height:600px;
+	  padding:0px;
+	  margin:40px auto;
+	  background-color:dodgerblue;
+	  font-family:halvetica,sans-serif;
+	  box-shadow:0px 1px 5px 0px;}
+	  
+	.upper{width:inherit;
+			height:260px;
+			padding:0px;
+			margin:0px;
+			background-color:white;
+			text-align:center;
+			display:flex;
+			justify-content:center;
+			flex-direction:row;
+			align-items:center;}
+		
+		.ubox{width:400px;
+			  height:150px;
+			  padding:0px;
+			  margin:0px;
+			  color:dodgerblue;}
+			  
+			.btn {width:120px;
+				  height:20px;
+				  padding:8px 0px;
+				  margin-left:20px;
+				  color:white;
+				  text-align:center;
+			      display:inline-block;
+				  text-decoration:none;
+				  background-color:dodgerblue;}
+		
+		.lower{width:inherit;
+				height:300px;
+				padding:0px;
+				margin:0px;
+				background-color:dodgerblue;
+				text-align:center;
+				display:flex;
+				justify-content:center;
+				flex-direction:row;
+				align-items:center;}
+			
+		figure{width:220px;
+			   height:220px;
+			   padding:0px;
+			   margin-left:25px;
+			   color:dodgerblue;
+			   background-color:white;}
